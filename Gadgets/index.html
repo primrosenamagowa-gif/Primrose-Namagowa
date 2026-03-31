@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadget</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header class="head">
+      <div class="logo">Geek Gadget
+        <img src="images/image logo.jpg" alt="">
+      </div>
+      <nav class="Navbar">
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+         
+    </header>
+    <div class="Search-bar">
+      <input type="text" placeholder="Search">
+      <button id=" searchButton">Search</button>
+      <span class="Search-bar" id="searchButton">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </span>
+    </div>
+    <hr>
+    <h3 id="Results">Laptops</h3>
+    <main class="ViewDetails">
+      <section class="Laptops" id="Laptops">
+        <div class="card-group" id="gadget-list" data-category ="laptops"></div>
+      </section>
+      <section id=" Specifications" class="Specifications">
+       <h3 id="outcomes">Specifications</h3>
+       <div id="outcomes-details"></div> 
+      </section>
+      <aside class="Compare">
+        <h3>COMPARE</h3>
+        <div id="compare-list">
+          <p class="compare placeholder">Select Gadget</p>
+        </div>
+      </aside>
+      <aside class="Favourite">
+        <h3>FAVOURITE</h3>
+        <div id="favourites-list">
+          <p class="placeholder"> No favourite</p>
+        </div>
+      </aside>
+    </main>
+    <script src="AllGadgets.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
