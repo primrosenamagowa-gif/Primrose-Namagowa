@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Golden Fork</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Golden Fork</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="contact-hero">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you. Get in touch with Golden Fork today.</p>
+    </section>
+
+    <!-- Contact Information Grid -->
+    <section class="contact-info-section">
+        <h2>Get In Touch</h2>
+        <p class="section-intro">Multiple ways to reach us</p>
+        <div class="contact-info-grid">
+            <div class="contact-card">
+                <div class="contact-icon">📍</div>
+                <h3>Visit Us</h3>
+                <p>Malibongwe drive<br>Cosmo city , Randburg<br>South Africa</p>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">📞</div>
+                <h3>Call Us</h3>
+                <p>Phone: <strong>064 076 6727</strong><br>Reservations: <strong>064 076 6728</strong><br>Available Mon-Sun, 11am-10pm</p>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">✉️</div>
+                <h3>Email Us</h3>
+                <p>General: <strong>info@goldenfork.com</strong><br>Reservations: <strong>reservations@goldenfork.com</strong><br>Events: <strong>events@goldenfork.com</strong></p>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">🕐</div>
+                <h3>Hours</h3>
+                <p>Mon-Thu: 11am - 10pm<br>Fri-Sat: 11am - 11pm<br>Sunday: 10am - 9pm</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="form-container">
+            <div class="form-left">
+                <h2>Send us a Message</h2>
+                <p>Have a question or special request? Fill out the form and we'll get back to you as soon as possible.</p>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="reservation">Reservation Inquiry</option>
+                            <option value="event">Event Catering</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="general">General Question</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Your message here..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="form-right">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.5!2d27.9167!3d-25.9833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956c6b8b8b8b8b%3A0x1e956c6b8b8b8b8b!2zMjXCsDU4JzU5LjkiUyAyN8KwNTUnMDAuMSJF!5e0!3m2!1sen!2sza!4v1234567890" width="100%" height="500" style="border:none; border-radius:8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Follow Us Section -->
+    <section class="follow-section">
+        <h2>Follow Us</h2>
+        <p>Stay connected with Golden Fork on social media</p>
+        <div class="social-links">
+            <a href="#" class="social-btn" title="Facebook">f</a>
+            <a href="#" class="social-btn" title="Instagram">📷</a>
+            <a href="#" class="social-btn" title="Twitter">𝕏</a>
+            <a href="#" class="social-btn" title="LinkedIn">in</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Golden Fork Restaurant. All rights reserved. | Fine Dining Excellence</p>
+    </footer>
+</body>
+</html>
